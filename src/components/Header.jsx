@@ -10,4 +10,4 @@ const Header = ({ batchName }) => {
     </header>
   );
 };
-
+export default Header;
