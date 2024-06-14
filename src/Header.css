@@ -4,11 +4,13 @@
     align-items: center;
     padding: 20px;
     background-color: #2821a6;
+    
   }
   
   .logo {
     height: 50px;
     margin-right: 20px;
+    margin-left: 600px;
   }
   
   h1 {
