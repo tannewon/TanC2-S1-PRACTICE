@@ -1,0 +1,12 @@
+/* components/Scores.css */
+.scores {
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  

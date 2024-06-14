@@ -1,13 +1,19 @@
-// /components/Header.jsx
+
 import React from 'react';
+import PropTypes from 'prop-types';
+import '../Header.css'; 
 
 const Header = ({ batchName }) => {
   return (
-    <header style={styles.header}>
-      <img src="/path/to/logo.png" alt="PN Logo" style={styles.logo} />
-      <h1 style={styles.title}>Page Title</h1>
-      <p style={styles.batchName}>Batch: {batchName}</p>
+    <header className="header">
+      <img src="./src/assets/pn-logo.png" alt="PN Logo" className="logo" />
+      <h1>{`Batch: ${batchName}`}</h1>
     </header>
   );
 };
+
+Header.propTypes = {
+  batchName: PropTypes.string.isRequired,
+};
+
 export default Header;
